@@ -1,0 +1,10 @@
+# ignore created output files.
+*.out
+/output/*
+*.sh
+
+# created gurobi.log (unique to each machine)
+*.log
+
+# ignore changes to C3.Master (base file)
+/input_data/C3.MASTER.xml
